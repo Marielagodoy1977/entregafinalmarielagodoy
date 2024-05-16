@@ -1,6 +1,6 @@
 //base
-@import 'base/reset';
 @import 'base/vars';
+@import 'base/reset';
 @import 'base/utilities';
 
 //components
@@ -9,85 +9,15 @@
 
 //layouts
 @import 'layouts/index';
-
-
-
-/* color de los textos */
-h1  {
-    color:  #66B33A;
-    }
-    h2 {
-        color: #0088C7;
-    }
-     h3 {
-        color: #00358E;
-    }
-    h4 {
-        color: #878787;
-    }
-
-    article {
-        color: #0088DE;
-    }
-
-    p {
-        color: #878787;
-    }
-
-    /* estilos de textos */
-    h1 {
-        font-family:"roboto";
-        font-size: 55px;
-    }
-    h2 {
-        font-family:"roboto";
-        font-size: 30px;
-    }
-    h3 {
-        font-family:"roboto";
-        font-size: 25px;
-    }
-    h4 {
-        font-family:"roboto";
-        font-size: none;
-    }
-    h5 {
-        font-family:"roboto";
-        font-size: none;
-    }
-    h6 {
-        font-family:"roboto";
-        font-size: none;
-    }
-
-    @font-face {
-        font-family:"roboto";
-        src: url("../font/Roboto-Regular.ttf");
-    }
-    p {
-        font-family: "roboto";
-        font-size: 22px;
-        font-weight: 400;
-        font-style: normal;
-        width: 90%;
-    }
-
-    a {
-        text-decoration: none;
-        font-family: "roboto";
-    }
+@import 'layouts/contacto';
+@import 'portfolio';
+@import 'quienes-somos';
+@import 'servicios';
 
     /* Header */
     header {
         display: flex;
         justify-content: space-between;
-    }
-
-    nav {
-        background-image: url("../images/concrete-texture.png");
-    }
-    .bg-image {
-        background-image: url("../images/concrete-texture.png");
     }
 
     .barraInicio {

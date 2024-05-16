@@ -215,5 +215,16 @@ body {
   width: 10%;
   margin-right: 100%;
 }
+@media (max-width: 480px) {
+  nav,
+  .nav-list {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero {
+    height: 900px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
