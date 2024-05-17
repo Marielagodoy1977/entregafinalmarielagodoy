@@ -76,17 +76,33 @@ h1  {
       background-image: url("../images/concrete-texture.png");
   }
 
-  .barraInicio {
-      font-family: "roboto";
-      font-size: 20px;
-      font-weight: bold;
-      font-style: normal;
-  }
-
   body {
       background-image: url("../images/concrete-texture.png");
       margin: 0%;
 
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color:#00358E;
+    transition: 0.3s;
+    &:hover {
+    background-color: transparent;
+    color: transparent;
+          
+    }
+  
+  }
+  .navbar-toggler { background-color:transparent;  
+    border-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+    &:hover {
+      background-color: #0088DE;
+      border-color: transparent;
+      color: transparent
+    }
   }
 
   .contenedorLogo {
