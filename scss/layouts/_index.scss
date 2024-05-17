@@ -2,7 +2,7 @@
 /* Bloque 1 */
 .bloque1 {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr;
     padding: 10px;
     row-gap: 10px;
   }
@@ -28,13 +28,22 @@
   
   /* comunicación de crisis section */
   .títuloParrafoeimagen {
-    display: flex;
-    background-color: none;
-    flex-direction: column;
-    position: relative;
-    padding: 50px;
-    width: 100%;
+   padding: 20px;
+   @include flex (row, center, center, 20px)
   }
+
+  .subtitulo {
+    width: 40%;
+    @include flex (column, center, flex-start, 20px)
+  }
+
+  .imagentexto {
+    width: 60%;
+    height: 500px;
+    transition: .3s;
+    img
+  }
+
   
   .palabrasEnlaces {
     font-family: roboto;
@@ -43,7 +52,7 @@
     color: #E0040B;
   }
   
-  .crisispng {
+  /*.crisispng {
     width: 50%;
     height: 650px;
     object-fit: cover;
@@ -57,4 +66,4 @@
     object-fit: cover;
     padding: 10%;
     padding-top: 2%;
-  }  
+  }*/
