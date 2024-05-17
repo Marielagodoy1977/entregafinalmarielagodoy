@@ -1,9 +1,26 @@
- /* Header */
+ 
+  img {
+    @include imagenes(100%, 500px);
+  }
+  h1,
+  h2 {
+    font-family: $main-font;
+  }
+  
+  p,
+  a {
+    font-family: $second-font;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
  header {
     display:flex;
     justify-content: space-between;
 }
-x|
 body {
     background-image: url("../images/concrete-texture.png");
 }
